@@ -201,7 +201,7 @@ def get_psm3(latitude, longitude, api_key, email, names='tmy', interval=60,
         'names': names,
         'attributes':  ','.join(attributes),
         'leap_day': str(leap_day).lower(),
-        'utc': 'false',
+        'utc': 'true',
         'interval': interval
     }
     # request CSV download from NREL PSM3
